@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "skillradar-cli"
+version = "1.0.0"
+description = "Local BM25 discovery for growing coding-agent skill libraries."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+keywords = ["agent-skills", "codex", "claude", "bm25", "search", "cli"]
+
+[project.scripts]
+skillradar = "skillradar.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
