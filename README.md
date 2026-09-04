@@ -1,5 +1,7 @@
 # SkillRadar
 
+[![CI](https://github.com/al1re3a/skillradar-cli/actions/workflows/ci.yml/badge.svg)](https://github.com/al1re3a/skillradar-cli/actions/workflows/ci.yml) [![MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+
 **Find the right agent skill without stuffing every description into context.**
 
 SkillRadar discovers local `SKILL.md` files and ranks them with a small BM25 search index. It is fast, private, dependency-free, and compatible with skills stored for Codex, Claude Code, Cursor, or a custom agent.
